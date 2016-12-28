@@ -1,0 +1,12 @@
+version: '2'
+services:
+  artifactory:
+    container_name: 'apache'
+    hostname: 'apache'
+    image: 1000kit/apache
+    ports:
+      - "10080:80"
+    volumes:
+      - ~/Downloads/:/var/www/html/
+    
+#END
