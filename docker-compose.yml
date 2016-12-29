@@ -7,6 +7,6 @@ services:
     ports:
       - "10080:80"
     volumes:
-      - ~/Downloads/:/var/www/html/
+      - ~/Downloads/:/var/www/html/Downloads/
     
 #END
