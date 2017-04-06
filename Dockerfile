@@ -13,7 +13,7 @@ ADD run-httpd.sh /root/run-httpd.sh
 RUN  yum update -y \
    && yum -y install httpd \
    && yum clean all \
-   && chmod -v +x /root/run-httpd.sh  
+   && chmod -v +x /root/run-httpd.sh \
    && mkdir /var/www/html/Downloads   
 
 
